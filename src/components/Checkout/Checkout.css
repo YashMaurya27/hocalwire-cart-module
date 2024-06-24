@@ -1,0 +1,54 @@
+.grid-container {
+    width: 90%;
+    max-width: 1920px;
+    margin: 20px auto;
+    text-align: start;
+}
+.quantity-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 3px;
+  }
+  .quantity-container > button {
+    background-color: black;
+    color: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+  }
+  .quantity-container > input {
+    width: 40px;
+    border: none;
+    text-align: center;
+  }
+  .delete-btn {
+    background-color: transparent;
+    border: none;
+  }
+  .total-div {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
+
+  .grid-image {
+    width: 100px;
+    height: 100px;
+  }
+  .grid-image img {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 576px) {
+    .grid-image img {
+      height: 70px;
+      width: 100%;
+    }
+    .grid-product-title {
+        font-size: 16px;
+        font-weight: 400;
+    }
+  }

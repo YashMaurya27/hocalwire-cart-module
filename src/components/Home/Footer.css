@@ -1,0 +1,52 @@
+footer {
+  background-color: rgb(17, 6, 3);
+  color: #fff;
+  padding: 20px 0;
+  text-align: start;
+  padding: 20px 50px;
+  box-sizing: border-box;
+}
+
+/* Styling for Column Container */
+.footer-columns {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* Styling for Individual Columns */
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+/* Styling for Options within Columns */
+.footer-option {
+  margin-bottom: 10px;
+}
+
+/* Styling for Links */
+.footer-option a {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+.footer-option a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px; /* Adjust the border height as needed */
+  background-color: white; /* Adjust the border color as needed */
+  transition: width 0.3s ease; /* Adjust the transition duration and timing function as needed */
+}
+
+.footer-option a:hover::before {
+  /* border-bottom: 1px solid #950101; */
+  width: 100%;
+}
